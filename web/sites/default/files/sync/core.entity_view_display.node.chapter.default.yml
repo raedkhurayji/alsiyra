@@ -1,0 +1,71 @@
+uuid: 6b00bfab-dc16-41aa-9b5e-b53d340b126f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chapter.field_content
+    - field.field.node.chapter.field_description
+    - field.field.node.chapter.field_page_number
+    - field.field.node.chapter.field_review_status
+    - field.field.node.chapter.field_scholar_name
+    - field.field.node.chapter.field_scholar_notes
+    - node.type.chapter
+  module:
+    - options
+    - user
+id: node.chapter.default
+targetEntityType: node
+bundle: chapter
+mode: default
+content:
+  field_content:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_page_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_review_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_scholar_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_scholar_notes:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 18c4750b-d32d-4a2a-94f1-dc6dcb6b81fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_number
+    - node.type.chapter
+id: node.chapter.field_page_number
+field_name: field_page_number
+entity_type: node
+bundle: chapter
+label: 'Page Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
