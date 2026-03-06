@@ -1,0 +1,19 @@
+uuid: 5900c9e7-95cb-404c-a4ac-476fa4b0fd26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scholar_notes
+    - node.type.chapter
+id: node.chapter.field_scholar_notes
+field_name: field_scholar_notes
+entity_type: node
+bundle: chapter
+label: 'Scholar Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

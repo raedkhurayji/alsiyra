@@ -1,0 +1,21 @@
+uuid: 168f0d56-5466-42f6-85b9-f70d4603cdc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_review_status
+    - node.type.chapter
+  module:
+    - options
+id: node.chapter.field_review_status
+field_name: field_review_status
+entity_type: node
+bundle: chapter
+label: 'Review Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

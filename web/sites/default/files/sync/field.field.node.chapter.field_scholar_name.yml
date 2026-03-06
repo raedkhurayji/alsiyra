@@ -1,0 +1,19 @@
+uuid: 723af3c4-66ab-4df8-b2fd-799d3c443b1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scholar_name
+    - node.type.chapter
+id: node.chapter.field_scholar_name
+field_name: field_scholar_name
+entity_type: node
+bundle: chapter
+label: 'Scholar Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
