@@ -1,0 +1,21 @@
+# Drupal
+vendor/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/
+web/libraries/
+web/sites/default/files/*
+!web/sites/default/files/sync
+!web/sites/default/files/.gitkeep
+
+# Sensitive config
+web/sites/default/settings.php
+web/sites/default/settings.local.php
+
+# DDEV local
+.ddev/config.local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
